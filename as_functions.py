@@ -38,3 +38,14 @@ def permutation_test(a, b, num_perms=1000):
             if diff2 <= diff:
                 count += 1
     return count/num_perms
+
+def proportions_test(a, b, column):
+
+    diff = pivot["mean"][a][column] - pivot["mean"][b][column]
+    p_avg = ((pivot["count"][a][column] * pivot["mean"][a][column] 
+              + pivot["count"][b][column] * pivot["mean"][b][column]) 
+             / (pivot["count"][a][column] + pivot["count"][b][column]))
+    denom = np.sqrt(p_avg * (1-p_avg) * (1/pivot["count"][a][column] + 1/pivot["count"][b][column]))
+    z_score = diff / denom
+    p_value = stats.norm.sf(abs(z_score))*2
+    return "z-score: {}, p-value: {}".format(z_score, p_value)
