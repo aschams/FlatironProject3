@@ -28,6 +28,7 @@ While crashes take place all over the district, we clearly find high frequency o
 Weekdays and weekends entail slightly different trends. On weekdays the number of crashes declines in the morning with the bottom around 8 to 11 in the morning. After an increase in the afternoon, weekdays have the second and smaller bottom on dinner time around 8 pm.
 
 In contrast, on weekends, we see a peak in crashes in the morning around 9 to 10 am. The number of crashes declines until noon to 2 pm. It increases again toward the evening but less steeply than on weekdays.
+
 ![alt text](Images/crash_report_hour_day_of_week.png "crash reports by hour and day of the week")
 
 ## Presentation
@@ -59,10 +60,10 @@ We look at the license plates, and analyze the trends of drivers from DC, Maryla
 It is natural to assume that drivers from neighboring states (i.e. Maryland and Virginia) crash more often near the borders to their home states. We look at the locations of crashes by drivers' origin and find different distributions of crash records along the longitude and latitude.
 
 Locations of crashes involving Virginia drivers are tilted toward west, and its mean longitude is statistically different from those of DC and Maryland drivers. The locations of DC and Maryland drivers overlap and their mean longitudes are not significantly different from each other.
-![alt text](Images/longitude_state "longitude of crashes by drivers origin")
+![alt text](Images/longitude_state.png "longitude of crashes by drivers origin")
 
 Likewise, crashes by Virginia drivers are slanted to South, while Marylanders have crashes in north more likely than others. Mean latitudes for the district and two neighbor states are different from each other with statistic significanse.
-![alt text](Images/latitude_state "latitude of crashes by drivers origin")
+![alt text](Images/latitude_state.png "latitude of crashes by drivers origin")
 
 #### Driver behaviors
 
@@ -72,7 +73,7 @@ Average conditions of drivers vary by states of origin. In the United States, it
 - Drivers with DC license plates in crashes are less likely to be found impaired. We assume that some drivers from Maryland and Virginia drive back home after consuming alcohol, marijuana, or other drugs and have crashes
 - DC and Virginia drivers in crashes are less likely to get injured than Maryland drivers. It is puzzling that Virginia drivers tend to be riskier drivers but less likely to get injured
 
-![alt text](Images/driver_behavior_state "Drivers' Conditions in Crashes by Origin State")
+![alt text](Images/driver_behavior_state.png "Drivers' Conditions in Crashes by Origin State")
 
 ##### Supporting data about driver impairment
 
@@ -80,4 +81,4 @@ Early morning time on weekend is the peak for crashes involving impaired drivere
 ![alt text](Images/impaired_hour "CImpaired in Crashes by Hours and Day of the Week")
 
 On the map, we see high concentration of crashes with impaired drivers in the downtown area, especially around U street and DuPont Circle neighborhoods.
-![alt text](Images/impaired_map "Crash Records with Drivers Impaired")
+![alt text](Images/impaired_map.png "Crash Records with Drivers Impaired")
