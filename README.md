@@ -10,7 +10,7 @@ Anthony Schams and Keita Miyaki
 We looked at "Crashes in DC" and "Crash Details Table" datasets from the DC Government ([link](https://opendata.dc.gov)). Both datasets provide records of crashes within the District of Columbia from 1975 to June 2019.
 
 ### Data cleaning
-"Crashes in DC" dataset provides ~211,000 incidents, of which abnormal number, close to half of the entire observations are reported exactly at five o'clock in the morning. We assume those record as inproper reporting and thus drop them.
+"Crashes in DC" dataset provides ~211,000 incidents, of which an abnormal number (close to half), of the entire observations are reported exactly at five o'clock in the morning. We assume those record as inproper reporting and thus drop them.
 
 After removing five am reports, we see that 2016-2019 are the only years that appear to be 'complete.' Years prior to 2016 have much low numbers, less than half of 2016, of crashes; we believe that many of the reports in earlier years were recorded with times of 5 am and were dropped. For the incomplete information we have for years prior to 2016, we will limit our analysis to the years 2016-2019.
 
@@ -67,7 +67,7 @@ Likewise, crashes by Virginia drivers are slanted to South, while Marylanders ha
 
 ![alt text](Images/latitude_state.png "latitude of crashes by drivers origin")
 
-#### Driver behaviors
+#### Driver behavior
 
 Average conditions of drivers vary by states of origin. In the United States, it is common to hear complaints from a driver about drivers from an adjacent state. We find some evidences to support some of the claims.
 
