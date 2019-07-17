@@ -79,7 +79,7 @@ Average conditions of drivers vary by states of origin. In the United States, it
 
 Early morning time on weekend is the peak for crashes involving impaired driveres. It is clear that people consume alcohol, marijuana, or other drugs on Friday/Saturday night, and on the way back they have crashes.
 
-![alt text](Images/impaired_hour "Impaired in Crashes by Hours and Day of the Week")
+![alt text](Images/impaired_hour.png "Impaired in Crashes by Hours and Day of the Week")
 
 On the map, we see high concentration of crashes with impaired drivers in the downtown area, especially around U street and DuPont Circle neighborhoods.
 
