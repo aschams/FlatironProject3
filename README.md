@@ -60,9 +60,11 @@ We look at the license plates, and analyze the trends of drivers from DC, Maryla
 It is natural to assume that drivers from neighboring states (i.e. Maryland and Virginia) crash more often near the borders to their home states. We look at the locations of crashes by drivers' origin and find different distributions of crash records along the longitude and latitude.
 
 Locations of crashes involving Virginia drivers are tilted toward west, and its mean longitude is statistically different from those of DC and Maryland drivers. The locations of DC and Maryland drivers overlap and their mean longitudes are not significantly different from each other.
+
 ![alt text](Images/longitude_state.png "longitude of crashes by drivers origin")
 
 Likewise, crashes by Virginia drivers are slanted to South, while Marylanders have crashes in north more likely than others. Mean latitudes for the district and two neighbor states are different from each other with statistic significanse.
+
 ![alt text](Images/latitude_state.png "latitude of crashes by drivers origin")
 
 #### Driver behaviors
@@ -82,5 +84,4 @@ Early morning time on weekend is the peak for crashes involving impaired drivere
 ![alt text](Images/impaired_hour.png "Impaired in Crashes by Hours and Day of the Week")
 
 On the map, we see high concentration of crashes with impaired drivers in the downtown area, especially around U street and DuPont Circle neighborhoods.
-
 ![alt text](Images/impaired_map.png "Crash Records with Drivers Impaired")
