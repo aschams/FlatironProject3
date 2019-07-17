@@ -1,4 +1,5 @@
 import numpy as np
+import scipy.stats as stats
 
 def get_time_of_day(hour):
     if hour < 6:
@@ -39,7 +40,7 @@ def permutation_test(a, b, num_perms=1000):
                 count += 1
     return count/num_perms
 
-def proportions_test(a, b, column):
+def proportions_test(pivot, a, b, column):
 
     diff = pivot["mean"][a][column] - pivot["mean"][b][column]
     p_avg = ((pivot["count"][a][column] * pivot["mean"][a][column] 
